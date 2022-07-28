@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="main-container">
+        <div id="header">
+            <h1>Calculator</h1>
+        </div>
+        <div id="grid">
+            <div class="output">
+                <div data-prev-operand class="previous"></div>
+                <div data-current-operand class="current"></div>
+            </div>
+            <button data-all-clear class="btn span-two" id="reset">AC</button>
+            <button data-delete class="btn" id="clear"><i class="fa-solid fa-delete-left"></i></button>
+            <button data-operation class="btn">/</button>
+            <button data-number class="btn numbers">7</button>
+            <button data-number class="btn numbers">8</button>
+            <button data-number class="btn numbers">9</button>
+            <button data-operation class="btn operators" id="add">+</button>
+            <button data-number class="btn numbers">4</button>
+            <button data-number class="btn numbers">5</button>
+            <button data-number class="btn numbers">6</button>
+            <button data-operation class="btn operators" id="subtract">-</button>
+            <button data-number class="btn numbers">1</button>
+            <button data-number class="btn numbers">2</button>
+            <button data-number class="btn numbers">3</button>
+            <button data-operation class="btn operators" id="multiply">*</button>
+            <button data-number class="btn numbers">0</button>
+            <button data-number class="btn">.</button>
+            <button data-equals class="btn span-two" id="equals">=</button>
+        </div>
+    <div id="footer">
+            <h3>Made By Tanmay</h3>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
